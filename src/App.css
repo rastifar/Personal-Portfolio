@@ -658,3 +658,12 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   letter-spacing: 0.5px;
   margin-top: 20px;
 }
+
+@media (max-width: 520px) {
+  .project .nav.nav-pills {
+    width: 98%;
+  }
+  .project .nav.nav-pills .nav-link {
+    font-size: 14px;
+  }
+}
